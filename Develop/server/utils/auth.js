@@ -4,13 +4,14 @@ const jwt = require('jsonwebtoken');
 const secret = 'mysecretsshhhhh';
 const expiration = '2h';
 
+// Set up correctly? How does it know to work as GraphQL?
 module.exports = {
   signToken: function ({ email, username, _id }) {
     const payload = { email, username, _id };
-
     return jwt.sign({ data: payload }, secret, { expiresIn: expiration });
   },
 
+  // Is authMiddleware necessary? Does anything further need to be adjusted here?
   authMiddleware: function ({ req }) {
     // allows token to be sent via  req.query or headers
     let token = req.query.token || req.headers.authorization;
