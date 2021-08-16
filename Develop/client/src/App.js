@@ -6,6 +6,7 @@ import SearchBooks from './pages/SearchBooks';
 import SavedBooks from './pages/SavedBooks';
 import Navbar from './components/Navbar';
 
+// set up correctly? Any additional code necessary below?
 const client = new ApolloClient({
   uri: '/graphql',
   cache: new InMemoryCache(),
