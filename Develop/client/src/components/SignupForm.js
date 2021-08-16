@@ -8,7 +8,7 @@ const SignupForm = () => {
   // set initial form state
   const [userFormData, setUserFormData] = useState({ username: '', email: '', password: '' });
 
-  //"useMutation()"" Hook which executes the "SAVE_BOOK" mutation in the "handleDeleteBook()" function
+  //"useMutation()"" Hook which executes the "ADD_USER" mutation functionality
   const [addUser, { error }] = useMutation(ADD_USER);
 
   // set state for form validation
@@ -40,9 +40,6 @@ const SignupForm = () => {
 
       Auth.login(data.addUser.token);
 
-      // if (error) {
-      //   throw new Error('something went wrong!');
-      // }
     } catch (err) {
       console.error(error);
       setShowAlert(true);
