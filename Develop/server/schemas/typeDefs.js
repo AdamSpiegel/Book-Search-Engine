@@ -8,9 +8,18 @@ type QUERY {
 
 type Mutation {
     login(email: String! password: String!): Auth
-    addUser(username: String! email: String! password!): Auth
-    saveBook(authors: String! description: String! bookId: String! image: String! link: String!): User
+    addUser(username: String! email: String! password: String!): Auth
+    saveBook(bookData: bookInput!): User
     removeBook(bookId: String!): User 
+}
+
+input bookInput {
+    authors: [String]
+    description: String
+    title: String
+    bookId: String
+    image: String
+    link: String
 }
 
 type User {
