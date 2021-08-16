@@ -7,6 +7,7 @@ import { saveBookIds, getSavedBookIds } from '../utils/localStorage';
 
 import { useMutation } from '@apollo/react-hooks';
 import { SAVE_BOOK } from '...utils/mutations';
+import { removeBookId } from '../utils/localStorage';
 
 const SearchBooks = () => {
 
@@ -70,7 +71,6 @@ const SearchBooks = () => {
     if (!token) {
       return false;
     }
-
     try {
       const { data } = await saveBook({
         variables: { bookData: { ...bookToSave } }
