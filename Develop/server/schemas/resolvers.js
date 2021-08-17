@@ -52,7 +52,7 @@ const resolvers = {
             throw new AuthenticationError('Error! You need to be logged in to save your book!');
         },
 
-        deleteBook: async (parent, args, context) => {
+        removeBook: async (parent, args, context) => {
             if (context.user) {
                 const updatedUser = await User.findOneAndUpdate(
                     { _id: context.user._id },
