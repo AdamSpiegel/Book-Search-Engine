@@ -34,7 +34,7 @@ const SavedBooks = () => {
       windows.location.reload();
 
     } catch (err) {
-      console.error(err);
+      console.error(error);
     }
   };
 

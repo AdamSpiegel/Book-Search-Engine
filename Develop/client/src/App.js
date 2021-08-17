@@ -1,15 +1,20 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
-
 import SearchBooks from './pages/SearchBooks';
 import SavedBooks from './pages/SavedBooks';
 import Navbar from './components/Navbar';
 
-// set up correctly? Any additional code necessary below?
 const client = new ApolloClient({
-  uri: '/graphql',
-  cache: new InMemoryCache(),
+  request: operation => {
+    const token = localStorage.getItem('id_token');
+    operation.setContext({
+      headers: {
+        authorization: token ? `Bearer ${token}` : ''
+      }
+    });
+  },
+  uri: '/graphql'
 });
 
 function App() {
