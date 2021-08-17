@@ -16,6 +16,7 @@ const server = new ApolloServer({
 });
 
 // Uses Apollo server features by updating via Express.js
+await server.start();
 server.applyMiddleware({ app });
 
 app.use(express.urlencoded({ extended: false }));
