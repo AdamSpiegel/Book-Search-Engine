@@ -43,6 +43,8 @@ type Auth {
     token: ID!
     user: User
 }
+
 `;
+
 module.exports = typeDefs;
 
