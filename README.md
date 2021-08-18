@@ -73,9 +73,12 @@ The MIT License is a permissive free software license originating at the Massach
 ## Testing Instructions
 
 1. Follow the Heroku app link located below.
-2. Enter any transactions, withdraws or deposits, and you should see the chart auto populate your data.
-3. Go into browser dev tools, and disconnect from network. Try adding in withdraws and deposits. These will be saved via the indexdb.js file, and when you reconnect via the dev tools, the transactions will automatically load to the Budget_Tracker Mongoose database.
-4. Please feel free to clone the repo to test on your local machine. You will need to NPM I for the dependencies, and make sure you are connected to Mongod to run properly.
+2. At the top right of the screen, create a new account by signing up with name/email/password. Or if returning, login with current credentials.
+3. Utilize the search box to enter in any book of your choosing (or author, title, description) and click "Submit Search".
+4. You will see a list of the matching books below the search bar relevant to your search. From here you have the capability to save as many books as you like!
+5. After your books are saved, you can click on "See Your Books" to view your selections. From here, you have the capability to delete any book which you have already saved previously.
+6. The application runs off of Heroku, while connected to a MongoDB database, so all of your saved books will be saved on local storage in addition to back end server-side storage.
+7. Please feel free to clone the repo to test on your local machine. You will need to NPM I for the dependencies (including GraphQL), and make sure you are connected to a MONGODB to run with full intended functionality.
 
 <br>
 
@@ -104,43 +107,43 @@ Full Stack Web Developer
 
 <br>
 
-_Successful Build_
+## _Successful Build_
 
 ![Screenshot1](Assets\images\Screenshot1.png)
 
 <br>
 
-_Coding Student Book Search Results_
+## _Coding Student Book Search Results_
 
 ![Screenshot2](Assets\images\Screenshot2.png)
 
 <br>
 
-_Parent Book Search Results_
+## _Parent Book Search Results_
 
 ![Screenshot3](Assets\images\Screenshot3.png)
 
 <br>
 
-_View Your Saved Book Collection_
+## _View Your Saved Book Collection_
 
 ![Screenshot4](Assets\images\Screenshot4.png)
 
 <br>
 
-_While Browsing, View The Books You Already Saved_
+## _While Browsing, View The Books You Already Saved_
 
 ![Screenshot5](Assets\images\Screenshot5.png)
 
 <br>
 
-_Local Storage Array of Your Saved Books_
+## _Local Storage Array of Your Saved Books_
 
 ![Screenshot6](Assets\images\Screenshot6.png)
 
 <br>
 
-_MongoDB - Backend Book Search Saving Capabilities_
+## _MongoDB - Backend Book Search Saving Capabilities_
 
 ![Screenshot7](Assets\images\Screenshot7.png)
 
