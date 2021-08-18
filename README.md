@@ -89,7 +89,6 @@ The MIT License is a permissive free software license originating at the Massach
 
 Adam Spiegel<br>
 Full Stack Web Developer<br>
-https://www.linkedin.com/in/adam-spiegel-3086687/
 
 <br>
 
@@ -97,24 +96,44 @@ https://www.linkedin.com/in/adam-spiegel-3086687/
 
 ### Please find my contact information below to reach out and collaborate!
 
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:AdamSpiegel23@gmail.com) [![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AdamSpiegel)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:AdamSpiegel23@gmail.com) [![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AdamSpiegel) [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adam-spiegel-3086687/)
 
 <br>
 
 ## Screenshots - Application Functionality
 
+<br>
+
 _Successful Build_
 
-![Screenshot1](Screenshot1.png)
-
-![Screenshot2](Screenshot2.png)
-
-![Screenshot3](Screenshot3.png)
+![Screenshot1](Assets\images\Screenshot1.png)
 
 <br>
 
-_shows data being inputted offline, then re-connected online, when the data is then synced to the Mongod DB automatically_
+_Coding Student Book Search Results_
 
-![Screenshot4](Screenshot4.jpg)
+![Screenshot2](Assets\images\Screenshot2.png)
 
-![Screenshot5](Screenshot5.jpg)
+<br>
+
+_Parent Book Search Results_
+
+![Screenshot3](Assets\images\Screenshot3.png)
+
+<br>
+
+_View Your Saved Book Collection_
+
+![Screenshot4](Assets\images\Screenshot4.png)
+
+<br>
+
+_While Browsing, View The Books You Already Saved_
+
+![Screenshot5](Assets\images\Screenshot5.png)
+
+<br>
+
+_Local Storage Array of Your Saved Books_
+
+![Screenshot6](Assets\images\Screenshot6.png)
