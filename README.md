@@ -115,38 +115,38 @@ Full Stack Web Developer
 
 ## _Coding Student Book Search Results_
 
-![Screenshot2](images\Screenshot2.png)
+![Screenshot2](./images/Screenshot2.png)
 
 <br>
 
 ## _Parent Book Search Results_
 
-![Screenshot3](images\Screenshot3.png)
+![Screenshot3](./images/Screenshot3.png)
 
 <br>
 
 ## _View Your Saved Book Collection_
 
-![Screenshot4](images\Screenshot4.png)
+![Screenshot4](./images/Screenshot4.png)
 
 <br>
 
 ## _While Browsing, View The Books You Already Saved_
 
-![Screenshot5](\images\Screenshot5.png)
+![Screenshot5](./images/Screenshot5.png)
 
 <br>
 
 ## _Local Storage Array of Your Saved Books_
 
-![Screenshot6](\images\Screenshot6.png)
+![Screenshot6](./images/Screenshot6.png)
 
 <br>
 
 ## _MongoDB - Backend Book Search Saving Capabilities_
 
-![Screenshot7](\images\Screenshot7.png)
+![Screenshot7](./images/Screenshot7.png)
 
 <br>
 
-![Screenshot8](\images\Screenshot8.png)
+![Screenshot8](./images/Screenshot8.png)
