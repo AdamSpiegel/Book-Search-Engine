@@ -109,7 +109,7 @@ Full Stack Web Developer
 
 ## _Successful Build_
 
-![Screenshot1](images\Screenshot1.png)
+![Screenshot1](./images/Screenshot1.png)
 
 <br>
 
