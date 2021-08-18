@@ -88,7 +88,7 @@ The MIT License is a permissive free software license originating at the Massach
 ## Project Contributor :man_technologist:
 
 Adam Spiegel<br>
-Full Stack Web Developer<br>
+Full Stack Web Developer
 
 <br>
 
@@ -137,3 +137,13 @@ _While Browsing, View The Books You Already Saved_
 _Local Storage Array of Your Saved Books_
 
 ![Screenshot6](Assets\images\Screenshot6.png)
+
+<br>
+
+_MongoDB - Backend Book Search Saving Capabilities_
+
+![Screenshot7](Assets\images\Screenshot7.png)
+
+<br>
+
+![Screenshot8](Assets\images\Screenshot8.png)
