@@ -31,10 +31,10 @@ const SavedBooks = () => {
 
       // upon success, remove book's id from localStorage & refresh the current documents
       removeBookId(bookId);
-      // windows.location.reload();
 
+      windows.location.reload();
     } catch (err) {
-      console.error(error);
+      console.error(err);
     }
   };
 
