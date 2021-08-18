@@ -34,6 +34,7 @@ mutation saveBook($bookData: bookInput!){
             bookId
             authors
             description
+            title
             image
             link
         }
