@@ -4,7 +4,7 @@ import { Jumbotron, Container, CardColumns, Card, Button } from 'react-bootstrap
 import Auth from '../utils/auth';
 import { removeBookId } from '../utils/localStorage';
 
-import { useQuery, useMutation } from '@apollo/react-hooks';
+import { useQuery, useMutation } from '@apollo/client';
 import { REMOVE_BOOK } from '../utils/mutations';
 import { GET_ME } from '../utils/queries';
 
@@ -32,7 +32,7 @@ const SavedBooks = () => {
       // upon success, remove book's id from localStorage & refresh the current documents
       removeBookId(bookId);
 
-      windows.location.reload();
+      window.location.reload();
     } catch (err) {
       console.error(err);
     }

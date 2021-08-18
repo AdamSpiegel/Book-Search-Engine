@@ -1,7 +1,8 @@
 import gql from 'graphql-tag';
 
 export const GET_ME = gql`
- me {
+ query {
+     me {
     _id
     username
     email 
@@ -13,6 +14,7 @@ export const GET_ME = gql`
         title
         image
         link
+    }
      }
     }
 `;
