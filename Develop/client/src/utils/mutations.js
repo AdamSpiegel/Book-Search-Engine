@@ -49,7 +49,6 @@ mutation removeBook($bookId: String!){
         username
         email 
         savedBooks {
-            bookID
             authors
             description
             title
