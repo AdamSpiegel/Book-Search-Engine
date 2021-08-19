@@ -24,7 +24,7 @@ This application entails a fully functioning Google Books API search engine buil
 
 ## Installation :hammer_and_wrench::gear:
 
-_Application Dependencies Include_
+### _Application Dependencies Include_
 
 - Mongoose
 - Express
@@ -37,20 +37,30 @@ _Application Dependencies Include_
 - JWT
 - Heroku
 
-_Files Created to Make PWA Budget Tracker Functional Include_
+## _Files Created & Modifications to Make Front/Back End Functional Included_
 
-- **manifest.webmanifest** - Provides information about this PWA in a JSON text file which is necessary for the app to be downloaded and be presented to the user similarly to the native app. (i.e you can download the app to your home screen of whatever device and have the same clean presentation)
+### _Client Side Specifications_
 
-- **service-worker.js** - This file is a script which the browser runs in the background that is essentially a JavaScript file that caches all of the Budget Trackers data and retrieves resources from the cache. You can view the included files in the app's cache here (all the public folders).
+1. Mutations.js - Executes the "LOG_IN", "ADD_USER", "SAVE_BOOK" & "REMOVE_BOOK" mutations.
+2. Queries.js - Holds the query "GET_ME", which executes the "me" query set up using Apollo Server.
+3. App.js - Apollo Provider created to sync with Apollo Server.
+4. SearchBooks.js - "useMutation()" Hook executes the "SAVE_BOOK" mutation in the "handleSaveBook()" function, instead of the "saveBook()" function imported from the "API" file.
+5. SavedBooks.js - "useQuery()" hook executes the "GET_ME" query on load and saves to variable "userData". Also, "useMutation" hook executes "REMOVE_BOOK" mutation.
+6. SignupForm.js - "ADD_USER" mutation functionality is executed.
+7. LoginForm.js - "LOGIN_USER" mutation functionality is executed.
 
-- **indexdb.js** - This file allows for the Budget Tracker to have dynamic content by allowing for the user to input withdraws or deposits, offline, and have those transactions automatically uploaded when back online. This file works with the Budget Tracker DB and creates a Budget Tracker Store to hold all of the inputted user transactions. In essence, this file creates a "waiting room" for the transactions to interact with the application.
+### _Server Side Specifications_
 
-_Additional Install Instructions Include_
+1. server.js - Apollo Server is implemented and applied to the Express server as middleware.
+2. auth.js - Auth middleware function updated to work with the GraphQL API.
+3. Schemas - index.js - typeDefs and resolvers are exported.
+4. Schemas - resolvers.js - queries and mutations functionality is defined to coincide with the Mongoose models.
+5. Schemas - typeDefs.js - utilizing the apollo-server-express and GraphQL, all queries and mutations are defined here (including Auth function).
+
+### _Additional Install Instructions & Tools Include_
 
 - Run NPM Install to utilize package.json dependencies
-- server.js file was updated to reflect a const PORT with the process.env path, along with the proper syntax to connect to our Mongoose DB.
-- index.html file = link to manifest.webmanifest was included in head of document, along with scripts for the indexdb.js and service worker (both at the base of the index.html)
-- Utilizing MongoDB Atlas and Heroku, a Budget_Tracker database was created and then linked for proper deployment.
+- Need to utilize Heroku and MongoDB Atlas to deploy properly.
 
 <br>
 
