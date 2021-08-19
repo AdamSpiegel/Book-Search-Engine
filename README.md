@@ -1,8 +1,8 @@
-# Book Search Engine: MERN Stack
+# Book Search Engine: :blue_book::closed_book::computer::green_book::orange_book:
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Table of Contents :books::card_index_dividers:
+## Table of Contents :books::card_file_box:
 
 1.  [Description](#Description)
 2.  [Installation](#Installation)
@@ -16,7 +16,7 @@
 
 <br>
 
-## Description
+## Description :open_book::desktop_computer:
 
 This application entails a fully functioning Google Books API search engine built with a RESTful API, which has been refactored to be a GraphQL API built with the Apollo Server. The app was built using the MERN stack with a React front end, MongoDB database, and Node.js/Express.js server and API.
 
@@ -64,23 +64,21 @@ This application entails a fully functioning Google Books API search engine buil
 
 <br>
 
-## Project Usage
+## Project Usage :man_teacher::bookmark_tabs:
 
 _User Story_<br>
-
-AS AN avid reader
-I WANT to search for new books to read
-SO THAT I can keep a list of books to purchase
+As an avid reader
+I want an application to search for new books to read, so that I can keep a list of books to purchase. I want the ability to save and view these books, and also the option to delete any book which I don't want saved any longer.
 
 <br>
 
-## License Information
+## License Information :tickets::copyright:
 
 The MIT License is a permissive free software license originating at the Massachusetts Institute of Technology in the late 1980s. As a permissive license, it puts only very limited restriction on reuse and has, therefore, high license compatibility.
 
 <br>
 
-## Testing Instructions
+## Testing Instructions :man_scientist::microscope:
 
 1. Follow the Heroku app link located below.
 2. At the top right of the screen, create a new account by signing up with name/email/password. Or if returning, login with current credentials.
@@ -92,20 +90,20 @@ The MIT License is a permissive free software license originating at the Massach
 
 <br>
 
-## Heroku Application Link
+## Heroku Application Link :ledger::file_cabinet:
 
 ### **https://polar-meadow-78874.herokuapp.com/**
 
 <br>
 
-## Project Contributor :man_technologist:
+## Project Contributor :man_technologist::pen:
 
 Adam Spiegel<br>
 Full Stack Web Developer
 
 <br>
 
-## Questions?
+## Questions? :raising_hand_man::handshake:
 
 ### Please find my contact information below to reach out and collaborate!
 
@@ -113,7 +111,7 @@ Full Stack Web Developer
 
 <br>
 
-## Screenshots - Application Functionality
+## Screenshots - Application Functionality :camera::collision:
 
 <br>
 
